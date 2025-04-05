@@ -1,144 +1,70 @@
-# 🎮 MediaAMP
+# Getting Started with Create React App
 
-**A stunning game browser built with React + RAWG API.**  
-Discover, search, filter, and save your favorite games in one place. Beautifully animated and fully responsive.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Status](https://img.shields.io/badge/status-complete-brightgreen)
-![React](https://img.shields.io/badge/react-18-blue?logo=react)
-![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
-![Clerk](https://img.shields.io/badge/auth-Clerk-orange?logo=clerk)
+## Available Scripts
 
----
+In the project directory, you can run:
 
-##  Preview
+### `npm start`
 
-### 🔹 Home Page
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![Home Light Mode](./screenshots/home.png)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 🔹 Sign in Option
+### `npm test`
 
-![Sign in ](./screenshots/signin.png)
-![acc status ](./screenshots/acc status.png)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-### 🔹 Game Detail View
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Game Detail View1](./screenshots/Game 1.png)
-![Game Detail View2](./screenshots/game 1 ss.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 🔹 Bookmarked Library
+### `npm run eject`
 
-![Library Page](./screenshots/library.png)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 🔹 Terminal
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![Terminal Page](./screenshots/library.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 📌 Features
+## Learn More
 
-- 🔍 **Search & Filters**: Find games by name, category, release year, and tags.
-- 🌙 **Dark Mode**: Toggle between light and dark themes.
-- 🔐 **Authentication**: Sign up/login with Clerk for a personalized experience.
-- 💾 **Bookmark Games**: Save your favorite games to a personal library.
-- 🎥 **Game Trailers**: Watch trailers and preview screenshots.
-- ⚡ **Smooth Animations**: Powered by Framer Motion.
-- 📱 **Fully Responsive**: Works on all devices — mobile, tablet, and desktop.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🚀 Tech Stack
+### Code Splitting
 
-| Frontend         | Features/Packages |
-|------------------|-------------------|
-| React            | Functional Components, Hooks |
-| Redux Toolkit    | State Management |
-| Clerk Auth       | Authentication |
-| Framer Motion    | Animations |
-| RAWG Video Games API | Game Data |
-| React-Bootstrap  | UI Components |
-| Vanilla CSS      | Styling |
-| React Router     | Routing |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 🔧 Getting Started
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### 1. Clone the Repository
+### Making a Progressive Web App
 
-```bash
-git clone https://github.com/your-username/mediaamp.git
-cd mediaamp
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### 2. Install Dependencies
+### Advanced Configuration
 
-```bash
-npm install
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### 3. Set up Clerk Authentication
+### Deployment
 
-> ⚠️ Create a Clerk project at [https://clerk.dev](https://clerk.dev) and get your frontend API key.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-```env
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-```
+### `npm run build` fails to minify
 
-### 4. Run the App
-
-```bash
-npm run dev
-```
-
----
-
-## 🌐 Live Demo
-
-> 📌 [Coming Soon – Hosted on Vercel/Netlify](#)
-
----
-
-## 💡 Project Structure
-
-```
-📦 mediaamp/
-├── 📁 public/
-├── 📁 src/
-│   ├── 📁 components/
-│   │   ├── Home.js
-│   │   ├── Library.js
-│   │   └── GameDetail.js
-│   ├── 📁 redux/
-│   │   └── gameSlice.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles.css
-├── 📁 screenshots/
-├── package.json
-└── README.md
-```
-
----
-
-## 🙌 Acknowledgments
-
-- 🕹️ [RAWG Video Games Database API](https://rawg.io/apidocs)
-- 🔒 [Clerk.dev](https://clerk.dev) for seamless authentication
-- ⚛️ React, Redux, Framer Motion
-
----
-
-## ✨ Author
-
-Made with ❤️ by **Harsh Verma**  
-[Portfolio](https://harshverma724.github.io/Portfolio-Website) • [LinkedIn](https://linkedin.com/in/harshverma724)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
