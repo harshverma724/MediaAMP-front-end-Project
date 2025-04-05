@@ -27,6 +27,10 @@ Explore detailed game descriptions with screenshots and trailers:
 A personalized section to revisit bookmarked games:  
 ![Library](./screenshots/library.png)
 
+### 🔹 Terminal – To Start The Server
+We need to use "npm start" command to run the website.  
+![terminal](./screenshots/powershell.png)
+
 ---
 
 ## 🚀 Features
