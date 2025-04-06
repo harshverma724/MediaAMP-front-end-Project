@@ -1,4 +1,4 @@
-### 🎮 MediaAMP – Game Explorer Web App
+## 🎮 MediaAMP – Game Explorer Web App
 
 **MediaAMP** is a beautifully animated, fully responsive web app built using modern web technologies and powered by the **RAWG Video Games Database API**. The app allows users to **search, explore, view details**, and **bookmark** their favorite games seamlessly, while maintaining a clean and professional UI/UX. Authentication is handled via **Clerk.dev**, and smooth animations are powered by **Framer Motion**.
 
