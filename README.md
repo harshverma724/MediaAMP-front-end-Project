@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Redux](https://img.shields.io/badge/Redux_Toolkit-purple?logo=redux)
-![Clerk](https://img.shields.io/badge/Auth-Clerk-orange?logo=clerk)
+![Clerk](https://img.shields.io/badge/Auth-Clerk-orange?logo=clerk) 
 
 ---
 
