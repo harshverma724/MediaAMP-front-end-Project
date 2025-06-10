@@ -60,7 +60,7 @@ An animation library for smooth transitions, hover effects, and fade-ins that el
 
 ### 5. API: **RAWG Video Games Database API**
 Provides a vast repository of game data, including descriptions, images, genres, tags, and ratings.
-
+ 
 ---
 
 ## 📋 Step-by-Step Project Workflow
